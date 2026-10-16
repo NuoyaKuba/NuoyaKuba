@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="426" viewBox="0 0 1280 426" role="img" aria-label="Orchestration log: five agents plan, design, code, animate and QA this profile" fill="none">
+<title>Orchestration log: five agents plan, design, code, animate and QA this profile</title>
+<style>.mono{font-family:'JetBrains Mono','SF Mono',ui-monospace,Menlo,Consolas,'Liberation Mono',monospace} .cur{animation:blink 1s steps(1) infinite} @keyframes blink{50%{opacity:0}}</style>
+
+<defs>
+  <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+    <circle cx="1" cy="1" r="1" fill="#ffffff" fill-opacity=".06"/>
+  </pattern>
+  <radialGradient id="gV" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#8b5cf6" stop-opacity=".38"/><stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/></radialGradient>
+  <radialGradient id="gC" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#22d3ee" stop-opacity=".22"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></radialGradient>
+  <clipPath id="frame"><rect x="1" y="1" width="1278" height="424" rx="22"/></clipPath>
+</defs>
+<g clip-path="url(#frame)">
+  <rect width="1280" height="426" fill="#07070c"/>
+  <ellipse cx="230" cy="64" rx="410" ry="256" fill="url(#gV)">
+    <animateTransform attributeName="transform" type="translate" values="0 0;60 30;0 0" dur="14s" repeatCount="indefinite" calcMode="spline" keyTimes="0;.5;1" keySplines=".45 0 .55 1;.45 0 .55 1"/>
+  </ellipse>
+  <ellipse cx="1088" cy="383" rx="384" ry="234" fill="url(#gC)">
+    <animateTransform attributeName="transform" type="translate" values="0 0;-70 -20;0 0" dur="17s" repeatCount="indefinite" calcMode="spline" keyTimes="0;.5;1" keySplines=".45 0 .55 1;.45 0 .55 1"/>
+  </ellipse>
+  <rect width="1280" height="426" fill="url(#dots)"/>
+</g>
+<rect x="1" y="1" width="1278" height="424" rx="22" stroke="#1d1d2c" stroke-width="1.5"/>
+
+<circle cx="32" cy="34" r="6" fill="#ff5f57"/><circle cx="52" cy="34" r="6" fill="#febc2e"/><circle cx="72" cy="34" r="6" fill="#28c840"/>
+<text x="640.0" y="39" text-anchor="middle" class="mono" font-size="13" fill="#8a8aa3">agents@nuoya: ~/profile — orchestrate.log</text>
+<line x1="0" y1="60" x2="1280" y2="60" stroke="#1d1d2c"/>
+
+<clipPath id="c0"><rect x="36" y="74" height="36" width="0">
+  <animate attributeName="width" values="0;0;1208;1208;0" keyTimes="0;0.0312;0.0656;0.96;1" dur="16.0s" repeatCount="indefinite"/>
+</rect></clipPath>
+<text x="40" y="98" class="mono" font-size="17" xml:space="preserve" clip-path="url(#c0)"><tspan fill="#ecebf5">$ orchestrator run --target=profile --agents=5 --evals=on</tspan></text>
+<clipPath id="c1"><rect x="36" y="110" height="36" width="0">
+  <animate attributeName="width" values="0;0;1208;1208;0" keyTimes="0;0.0844;0.1188;0.96;1" dur="16.0s" repeatCount="indefinite"/>
+</rect></clipPath>
+<text x="40" y="134" class="mono" font-size="17" xml:space="preserve" clip-path="url(#c1)"><tspan fill="#4b4b63">[00:01.35]</tspan>  <tspan fill="#8b5cf6" font-weight="700">orch      </tspan> <tspan fill="#ecebf5">spawned 5 agents · token budget bounded · guardrails armed</tspan></text>
+<clipPath id="c2"><rect x="36" y="146" height="36" width="0">
+  <animate attributeName="width" values="0;0;1208;1208;0" keyTimes="0;0.1375;0.1719;0.96;1" dur="16.0s" repeatCount="indefinite"/>
+</rect></clipPath>
+<text x="40" y="170" class="mono" font-size="17" xml:space="preserve" clip-path="url(#c2)"><tspan fill="#4b4b63">[00:02.20]</tspan>  <tspan fill="#8b5cf6" font-weight="700">@planner  </tspan> <tspan fill="#ecebf5">identity → ai/ml · agentic systems · games · robotics · ai films</tspan></text>
+<clipPath id="c3"><rect x="36" y="182" height="36" width="0">
+  <animate attributeName="width" values="0;0;1208;1208;0" keyTimes="0;0.1906;0.225;0.96;1" dur="16.0s" repeatCount="indefinite"/>
+</rect></clipPath>
+<text x="40" y="206" class="mono" font-size="17" xml:space="preserve" clip-path="url(#c3)"><tspan fill="#4b4b63">[00:03.05]</tspan>  <tspan fill="#f472b6" font-weight="700">@designer </tspan> <tspan fill="#ecebf5">layout locked · palette void/violet/cyan · type: mono + grotesk</tspan></text>
+<clipPath id="c4"><rect x="36" y="218" height="36" width="0">
+  <animate attributeName="width" values="0;0;1208;1208;0" keyTimes="0;0.2437;0.2781;0.96;1" dur="16.0s" repeatCount="indefinite"/>
+</rect></clipPath>
+<text x="40" y="242" class="mono" font-size="17" xml:space="preserve" clip-path="url(#c4)"><tspan fill="#4b4b63">[00:03.90]</tspan>  <tspan fill="#22d3ee" font-weight="700">@coder    </tspan> <tspan fill="#ecebf5">README.md + 4 svg assets · 0 lines of js (github sanitizer)</tspan></text>
+<clipPath id="c5"><rect x="36" y="254" height="36" width="0">
+  <animate attributeName="width" values="0;0;1208;1208;0" keyTimes="0;0.2969;0.3312;0.96;1" dur="16.0s" repeatCount="indefinite"/>
+</rect></clipPath>
+<text x="40" y="278" class="mono" font-size="17" xml:space="preserve" clip-path="url(#c5)"><tspan fill="#4b4b63">[00:04.75]</tspan>  <tspan fill="#fbbf24" font-weight="700">@motion   </tspan> <tspan fill="#ecebf5">keyframes: packets · reveals · pulses · pure css/smil</tspan></text>
+<clipPath id="c6"><rect x="36" y="290" height="36" width="0">
+  <animate attributeName="width" values="0;0;1208;1208;0" keyTimes="0;0.35;0.3844;0.96;1" dur="16.0s" repeatCount="indefinite"/>
+</rect></clipPath>
+<text x="40" y="314" class="mono" font-size="17" xml:space="preserve" clip-path="url(#c6)"><tspan fill="#4b4b63">[00:05.60]</tspan>  <tspan fill="#4ade80" font-weight="700">@qa       </tspan> <tspan fill="#ecebf5">evals → contrast ✓ · alt text ✓ · no fake stats ✓ · no fluff ✓</tspan></text>
+<clipPath id="c7"><rect x="36" y="326" height="36" width="0">
+  <animate attributeName="width" values="0;0;1208;1208;0" keyTimes="0;0.4031;0.4375;0.96;1" dur="16.0s" repeatCount="indefinite"/>
+</rect></clipPath>
+<text x="40" y="350" class="mono" font-size="17" xml:space="preserve" clip-path="url(#c7)"><tspan fill="#4b4b63">[00:06.45]</tspan>  <tspan fill="#8b5cf6" font-weight="700">orch      </tspan> <tspan fill="#4ade80">merge → main · status: SHIPPED ✓ · next task: your repo</tspan></text>
+<g opacity="0">
+  <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.4594;0.4604;0.96;1" dur="16.0s" repeatCount="indefinite"/>
+  <text x="40" y="386" class="mono" font-size="17" fill="#4ade80">$</text>
+  <rect x="62" y="371" width="10" height="19" fill="#22d3ee" class="cur"/>
+</g>
+</svg>

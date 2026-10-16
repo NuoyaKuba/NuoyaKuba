@@ -1,0 +1,167 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="480" viewBox="0 0 1280 480" role="img" aria-label="Nuoya Kuba — an orchestrator and five AI agents assembling this profile live" fill="none">
+<title>Nuoya Kuba — an orchestrator and five AI agents assembling this profile live</title>
+<style>
+.mono{font-family:'JetBrains Mono','SF Mono',ui-monospace,Menlo,Consolas,'Liberation Mono',monospace} .sans{font-family:'Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif}
+.st{opacity:0;animation:st 6.0s linear infinite}
+@keyframes st{0%{opacity:0}3%{opacity:1}30%{opacity:1}33.3%{opacity:0}100%{opacity:0}}
+.dot{animation:pulse 1.6s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.25}}
+.flow{stroke-dasharray:3 9;animation:flow 1.2s linear infinite}
+@keyframes flow{to{stroke-dashoffset:-24}}
+.cur{animation:blink 1s steps(1) infinite}
+@keyframes blink{50%{opacity:0}}
+.in{opacity:0;animation:in .8s cubic-bezier(.2,.7,.2,1) forwards}
+@keyframes in{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+</style>
+
+<defs>
+  <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+    <circle cx="1" cy="1" r="1" fill="#ffffff" fill-opacity=".06"/>
+  </pattern>
+  <radialGradient id="gV" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#8b5cf6" stop-opacity=".38"/><stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/></radialGradient>
+  <radialGradient id="gC" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#22d3ee" stop-opacity=".22"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></radialGradient>
+  <clipPath id="frame"><rect x="1" y="1" width="1278" height="478" rx="22"/></clipPath>
+</defs>
+<g clip-path="url(#frame)">
+  <rect width="1280" height="480" fill="#07070c"/>
+  <ellipse cx="230" cy="72" rx="410" ry="288" fill="url(#gV)">
+    <animateTransform attributeName="transform" type="translate" values="0 0;60 30;0 0" dur="14s" repeatCount="indefinite" calcMode="spline" keyTimes="0;.5;1" keySplines=".45 0 .55 1;.45 0 .55 1"/>
+  </ellipse>
+  <ellipse cx="1088" cy="432" rx="384" ry="264" fill="url(#gC)">
+    <animateTransform attributeName="transform" type="translate" values="0 0;-70 -20;0 0" dur="17s" repeatCount="indefinite" calcMode="spline" keyTimes="0;.5;1" keySplines=".45 0 .55 1;.45 0 .55 1"/>
+  </ellipse>
+  <rect width="1280" height="480" fill="url(#dots)"/>
+</g>
+<rect x="1" y="1" width="1278" height="478" rx="22" stroke="#1d1d2c" stroke-width="1.5"/>
+
+<defs>
+  <linearGradient id="name" x1="0" y1="0" x2="1" y2="0" gradientUnits="objectBoundingBox">
+    <stop offset="0" stop-color="#ffffff"/><stop offset=".45" stop-color="#c4b5fd"/>
+    <stop offset=".75" stop-color="#22d3ee"/><stop offset="1" stop-color="#f472b6"/>
+    <animateTransform attributeName="gradientTransform" type="translate" values="-0.3 0;0.3 0;-0.3 0" dur="8s" repeatCount="indefinite"/>
+  </linearGradient>
+  <linearGradient id="bar" x1="0" x2="1"><stop offset="0" stop-color="#8b5cf6"/><stop offset="1" stop-color="#22d3ee"/></linearGradient>
+  <clipPath id="reveal"><rect x="688" y="140" width="0" height="100">
+    <animate attributeName="width" from="0" to="560" begin="0.7s" dur="1.6s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".6 0 .2 1"/>
+  </rect></clipPath>
+</defs>
+<text x="48" y="54" class="mono" font-size="14" fill="#8a8aa3">// multi-agent build · target=<tspan fill="#ecebf5">github.com/NuoyaKuba</tspan></text>
+<text x="1232" y="54" text-anchor="end" class="mono" font-size="14" fill="#8a8aa3"><tspan fill="#4ade80" class="dot">●</tspan> 5 agents online</text>
+
+<path id="e0" d="M236,250 C310,250 292,106 372,106" stroke="#ffffff" stroke-opacity=".08" stroke-width="1.5"/>
+<path d="M236,250 C310,250 292,106 372,106" stroke="#8b5cf6" stroke-opacity=".55" stroke-width="1.5" class="flow"/>
+<path id="o0" d="M586,106 C626,106 612,250 652,250" stroke="#ffffff" stroke-opacity=".07" stroke-width="1.5"/>
+<circle r="4" fill="#8b5cf6" opacity="0"><animateMotion dur="2.4s" begin="0.00s" repeatCount="indefinite" calcMode="spline" keyTimes="0;1" keySplines=".5 0 .3 1"><mpath href="#e0"/></animateMotion>
+  <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.1;.85;1" dur="2.4s" begin="0.00s" repeatCount="indefinite"/></circle>
+<circle r="3" fill="#8b5cf6" opacity="0"><animateMotion dur="2.4s" begin="1.20s" repeatCount="indefinite" calcMode="spline" keyTimes="0;1" keySplines=".5 0 .3 1"><mpath href="#o0"/></animateMotion>
+  <animate attributeName="opacity" values="0;.9;.9;0" keyTimes="0;.1;.85;1" dur="2.4s" begin="1.20s" repeatCount="indefinite"/></circle>
+
+<path id="e1" d="M236,250 C310,250 292,178 372,178" stroke="#ffffff" stroke-opacity=".08" stroke-width="1.5"/>
+<path d="M236,250 C310,250 292,178 372,178" stroke="#f472b6" stroke-opacity=".55" stroke-width="1.5" class="flow"/>
+<path id="o1" d="M586,178 C626,178 612,250 652,250" stroke="#ffffff" stroke-opacity=".07" stroke-width="1.5"/>
+<circle r="4" fill="#f472b6" opacity="0"><animateMotion dur="2.4s" begin="0.37s" repeatCount="indefinite" calcMode="spline" keyTimes="0;1" keySplines=".5 0 .3 1"><mpath href="#e1"/></animateMotion>
+  <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.1;.85;1" dur="2.4s" begin="0.37s" repeatCount="indefinite"/></circle>
+<circle r="3" fill="#f472b6" opacity="0"><animateMotion dur="2.4s" begin="1.57s" repeatCount="indefinite" calcMode="spline" keyTimes="0;1" keySplines=".5 0 .3 1"><mpath href="#o1"/></animateMotion>
+  <animate attributeName="opacity" values="0;.9;.9;0" keyTimes="0;.1;.85;1" dur="2.4s" begin="1.57s" repeatCount="indefinite"/></circle>
+
+<path id="e2" d="M236,250 C310,250 292,250 372,250" stroke="#ffffff" stroke-opacity=".08" stroke-width="1.5"/>
+<path d="M236,250 C310,250 292,250 372,250" stroke="#22d3ee" stroke-opacity=".55" stroke-width="1.5" class="flow"/>
+<path id="o2" d="M586,250 C626,250 612,250 652,250" stroke="#ffffff" stroke-opacity=".07" stroke-width="1.5"/>
+<circle r="4" fill="#22d3ee" opacity="0"><animateMotion dur="2.4s" begin="0.74s" repeatCount="indefinite" calcMode="spline" keyTimes="0;1" keySplines=".5 0 .3 1"><mpath href="#e2"/></animateMotion>
+  <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.1;.85;1" dur="2.4s" begin="0.74s" repeatCount="indefinite"/></circle>
+<circle r="3" fill="#22d3ee" opacity="0"><animateMotion dur="2.4s" begin="1.94s" repeatCount="indefinite" calcMode="spline" keyTimes="0;1" keySplines=".5 0 .3 1"><mpath href="#o2"/></animateMotion>
+  <animate attributeName="opacity" values="0;.9;.9;0" keyTimes="0;.1;.85;1" dur="2.4s" begin="1.94s" repeatCount="indefinite"/></circle>
+
+<path id="e3" d="M236,250 C310,250 292,322 372,322" stroke="#ffffff" stroke-opacity=".08" stroke-width="1.5"/>
+<path d="M236,250 C310,250 292,322 372,322" stroke="#fbbf24" stroke-opacity=".55" stroke-width="1.5" class="flow"/>
+<path id="o3" d="M586,322 C626,322 612,250 652,250" stroke="#ffffff" stroke-opacity=".07" stroke-width="1.5"/>
+<circle r="4" fill="#fbbf24" opacity="0"><animateMotion dur="2.4s" begin="1.11s" repeatCount="indefinite" calcMode="spline" keyTimes="0;1" keySplines=".5 0 .3 1"><mpath href="#e3"/></animateMotion>
+  <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.1;.85;1" dur="2.4s" begin="1.11s" repeatCount="indefinite"/></circle>
+<circle r="3" fill="#fbbf24" opacity="0"><animateMotion dur="2.4s" begin="2.31s" repeatCount="indefinite" calcMode="spline" keyTimes="0;1" keySplines=".5 0 .3 1"><mpath href="#o3"/></animateMotion>
+  <animate attributeName="opacity" values="0;.9;.9;0" keyTimes="0;.1;.85;1" dur="2.4s" begin="2.31s" repeatCount="indefinite"/></circle>
+
+<path id="e4" d="M236,250 C310,250 292,394 372,394" stroke="#ffffff" stroke-opacity=".08" stroke-width="1.5"/>
+<path d="M236,250 C310,250 292,394 372,394" stroke="#4ade80" stroke-opacity=".55" stroke-width="1.5" class="flow"/>
+<path id="o4" d="M586,394 C626,394 612,250 652,250" stroke="#ffffff" stroke-opacity=".07" stroke-width="1.5"/>
+<circle r="4" fill="#4ade80" opacity="0"><animateMotion dur="2.4s" begin="1.48s" repeatCount="indefinite" calcMode="spline" keyTimes="0;1" keySplines=".5 0 .3 1"><mpath href="#e4"/></animateMotion>
+  <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.1;.85;1" dur="2.4s" begin="1.48s" repeatCount="indefinite"/></circle>
+<circle r="3" fill="#4ade80" opacity="0"><animateMotion dur="2.4s" begin="2.68s" repeatCount="indefinite" calcMode="spline" keyTimes="0;1" keySplines=".5 0 .3 1"><mpath href="#o4"/></animateMotion>
+  <animate attributeName="opacity" values="0;.9;.9;0" keyTimes="0;.1;.85;1" dur="2.4s" begin="2.68s" repeatCount="indefinite"/></circle>
+
+<circle cx="190" cy="250" r="46" stroke="#8b5cf6" stroke-opacity=".6">
+  <animate attributeName="r" values="46;92" dur="2.4s" repeatCount="indefinite"/>
+  <animate attributeName="stroke-opacity" values=".6;0" dur="2.4s" repeatCount="indefinite"/>
+</circle>
+<circle cx="190" cy="250" r="62" stroke="#8b5cf6" stroke-opacity=".5" stroke-dasharray="2 7" stroke-width="1.5">
+  <animateTransform attributeName="transform" type="rotate" from="0 190 250" to="360 190 250" dur="16s" repeatCount="indefinite"/>
+</circle>
+<circle cx="190" cy="250" r="46" fill="#0c0c15" stroke="#8b5cf6" stroke-width="1.5"/>
+<text x="190" y="248" text-anchor="middle" class="mono" font-size="15" font-weight="700" fill="#ecebf5">ORCH</text>
+<text x="190" y="266" text-anchor="middle" class="mono" font-size="10" fill="#8a8aa3">claude · loop</text>
+<text x="190" y="342" text-anchor="middle" class="mono" font-size="12" fill="#8a8aa3">plan → dispatch → verify</text>
+
+<g>
+  <rect x="372" y="81.0" width="214" height="50" rx="12" fill="#0c0c15" stroke="#1d1d2c"/>
+  <rect x="372" y="81.0" width="3" height="50" rx="1.5" fill="#8b5cf6"/>
+  <circle cx="392" cy="100" r="4" fill="#8b5cf6" class="dot" style="animation-delay:0.0s"/>
+  <text x="408" y="104" class="mono" font-size="14" font-weight="700" fill="#ecebf5">@planner</text>
+  <text x="408" y="121" class="mono st" font-size="11.5" fill="#8a8aa3" style="animation-delay:-0.00s">decomposing goals</text><text x="408" y="121" class="mono st" font-size="11.5" fill="#8a8aa3" style="animation-delay:-4.00s">writing plan.md</text><text x="408" y="121" class="mono st" font-size="11.5" fill="#4ade80" style="animation-delay:-2.00s">✓ plan locked</text>
+</g>
+<g>
+  <rect x="372" y="153.0" width="214" height="50" rx="12" fill="#0c0c15" stroke="#1d1d2c"/>
+  <rect x="372" y="153.0" width="3" height="50" rx="1.5" fill="#f472b6"/>
+  <circle cx="392" cy="172" r="4" fill="#f472b6" class="dot" style="animation-delay:0.3s"/>
+  <text x="408" y="176" class="mono" font-size="14" font-weight="700" fill="#ecebf5">@designer</text>
+  <text x="408" y="193" class="mono st" font-size="11.5" fill="#8a8aa3" style="animation-delay:-0.45s">picking palette</text><text x="408" y="193" class="mono st" font-size="11.5" fill="#8a8aa3" style="animation-delay:-4.45s">laying out grid</text><text x="408" y="193" class="mono st" font-size="11.5" fill="#4ade80" style="animation-delay:-2.45s">✓ layout ok</text>
+</g>
+<g>
+  <rect x="372" y="225.0" width="214" height="50" rx="12" fill="#0c0c15" stroke="#1d1d2c"/>
+  <rect x="372" y="225.0" width="3" height="50" rx="1.5" fill="#22d3ee"/>
+  <circle cx="392" cy="244" r="4" fill="#22d3ee" class="dot" style="animation-delay:0.6s"/>
+  <text x="408" y="248" class="mono" font-size="14" font-weight="700" fill="#ecebf5">@coder</text>
+  <text x="408" y="265" class="mono st" font-size="11.5" fill="#8a8aa3" style="animation-delay:-0.90s">writing svg</text><text x="408" y="265" class="mono st" font-size="11.5" fill="#8a8aa3" style="animation-delay:-4.90s">typing README</text><text x="408" y="265" class="mono st" font-size="11.5" fill="#4ade80" style="animation-delay:-2.90s">✓ tests green</text>
+</g>
+<g>
+  <rect x="372" y="297.0" width="214" height="50" rx="12" fill="#0c0c15" stroke="#1d1d2c"/>
+  <rect x="372" y="297.0" width="3" height="50" rx="1.5" fill="#fbbf24"/>
+  <circle cx="392" cy="316" r="4" fill="#fbbf24" class="dot" style="animation-delay:0.9s"/>
+  <text x="408" y="320" class="mono" font-size="14" font-weight="700" fill="#ecebf5">@motion</text>
+  <text x="408" y="337" class="mono st" font-size="11.5" fill="#8a8aa3" style="animation-delay:-1.35s">easing curves</text><text x="408" y="337" class="mono st" font-size="11.5" fill="#8a8aa3" style="animation-delay:-5.35s">keyframing hero</text><text x="408" y="337" class="mono st" font-size="11.5" fill="#4ade80" style="animation-delay:-3.35s">✓ 60fps</text>
+</g>
+<g>
+  <rect x="372" y="369.0" width="214" height="50" rx="12" fill="#0c0c15" stroke="#1d1d2c"/>
+  <rect x="372" y="369.0" width="3" height="50" rx="1.5" fill="#4ade80"/>
+  <circle cx="392" cy="388" r="4" fill="#4ade80" class="dot" style="animation-delay:1.2s"/>
+  <text x="408" y="392" class="mono" font-size="14" font-weight="700" fill="#ecebf5">@qa</text>
+  <text x="408" y="409" class="mono st" font-size="11.5" fill="#8a8aa3" style="animation-delay:-1.80s">running evals</text><text x="408" y="409" class="mono st" font-size="11.5" fill="#8a8aa3" style="animation-delay:-5.80s">checking a11y</text><text x="408" y="409" class="mono st" font-size="11.5" fill="#4ade80" style="animation-delay:-3.80s">✓ approved</text>
+</g>
+<rect x="652" y="78" width="588" height="344" rx="18" fill="#0c0c15" fill-opacity=".92" stroke="#1d1d2c"/>
+<circle cx="676" cy="102" r="5" fill="#ff5f57"/><circle cx="694" cy="102" r="5" fill="#febc2e"/><circle cx="712" cy="102" r="5" fill="#28c840"/>
+<text x="946.0" y="106" text-anchor="middle" class="mono" font-size="12" fill="#8a8aa3">README.md — assembled live</text>
+<line x1="652" y1="122" x2="1240" y2="122" stroke="#1d1d2c"/>
+<text x="688" y="158" class="mono" font-size="14" fill="#8a8aa3"><tspan fill="#4ade80">$</tspan> whoami</text>
+<g clip-path="url(#reveal)">
+  <text x="686" y="226" class="sans" font-size="68" font-weight="800" letter-spacing="-2" fill="url(#name)">Nuoya Kuba</text>
+</g>
+<rect y="176" width="4" height="58" fill="#22d3ee" class="cur" x="688">
+  <animate attributeName="x" from="688" to="1080" begin="0.7s" dur="1.6s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".6 0 .2 1"/>
+</rect>
+<g class="in" style="animation-delay:2.2s">
+  <text x="688" y="272" class="sans" font-size="21" font-weight="500" fill="#ecebf5">I build agents that build things.</text>
+</g>
+<g class="in" style="animation-delay:2.5s">
+  <text x="688" y="304" class="mono" font-size="13.5" fill="#8a8aa3">AI/ML · agentic harnesses · games · robotics · AI films</text>
+</g>
+<g class="in" style="animation-delay:2.8s">
+  <rect x="688" y="350" width="516" height="6" rx="3" fill="#ffffff" fill-opacity=".06"/>
+  <rect x="688" y="350" width="0" height="6" rx="3" fill="url(#bar)">
+    <animate attributeName="width" values="0;217;366;516" keyTimes="0;.35;.7;1" begin="2.9s" dur="2.4s" fill="freeze"/>
+  </rect>
+  <text x="688" y="384" class="mono" font-size="12.5" fill="#8a8aa3">compiling profile</text>
+  <text x="1204" y="384" text-anchor="end" class="mono" font-size="12.5" fill="#fbbf24">building…
+    <set attributeName="opacity" to="0" begin="5.3s" fill="freeze"/></text>
+  <text x="1204" y="384" text-anchor="end" class="mono" font-size="12.5" font-weight="700" fill="#4ade80" opacity="0">✓ shipped
+    <set attributeName="opacity" to="1" begin="5.3s" fill="freeze"/></text>
+</g>
+
+</svg>
